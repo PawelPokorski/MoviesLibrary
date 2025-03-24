@@ -1,6 +1,6 @@
-# MovieLibrary
+# MoviesLibrary
 
-Projekt MovieLibrary to aplikacja, która umożliwia zarządzanie kolekcją filmów. Użytkownicy mogą dodawać, edytować, usuwać i przeglądać informacje o filmach, takie jak tytuł, reżyser, rok wydania i gatunek. Dodatkowo, użytkownicy mogą oceniać i recenzować filmy, aktorów czy reżyserów.
+Projekt MoviesLibrary to aplikacja, która umożliwia zarządzanie kolekcją filmów. Użytkownicy mogą dodawać, edytować, usuwać i przeglądać informacje o filmach, takie jak tytuł, reżyser, rok wydania i gatunek. Dodatkowo, użytkownicy mogą oceniać i recenzować filmy, aktorów czy reżyserów.
 
 **Projekt jest w trakcie tworzenia. Niektóre elementy aplikacji nie są jeszcze zaimplementowane lub zintegrowane.**
 
