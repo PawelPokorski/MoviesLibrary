@@ -1,0 +1,14 @@
+bin/
+obj/
+.nuget/
+packages/
+*.user
+*.suo
+*.sln.docstates
+.vs/
+publish/
+Thumbs.db
+*.DS_Store
+appsettings.Development.json
+*.log
+*.tmp
