@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1FAC7517-C2EC-487A-97D3-89F48CF270FC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{ABFE500A-0D07-41CF-B809-0A39AEC42D8C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesLibrary.Application", "src\MoviesLibrary.Application\MoviesLibrary.Application.csproj", "{85CCCF90-EA44-E0E6-54FC-49B2206C90CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesLibrary.Domain", "src\MoviesLibrary.Domain\MoviesLibrary.Domain.csproj", "{7EBD6E5B-F6FE-661B-6D6E-F5AC4D1EEC2F}"
