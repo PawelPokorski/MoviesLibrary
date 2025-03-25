@@ -53,14 +53,14 @@ public class MovieService(IMovieRepository movieRepository, IUnitOfWork unitOfWo
         if (movie == null)
             return Result.Failure("Nie znaleziono filmu");
 
+        movie.Title = movieDto.Title;
+        movie.Description = movieDto.Description;
+        movie.Rating = movieDto.Rating;
+        movie.Genre = movieDto.Genre;
+        movie.ReleaseYear = movieDto.ReleaseYear;
+
         try
         {
-            movie.Title = movieDto.Title;
-            movie.Description = movieDto.Description;
-            movie.Rating = movieDto.Rating;
-            movie.Genre = movieDto.Genre;
-            movie.ReleaseYear = movieDto.ReleaseYear;
-
             movieRepository.UpdateMovie(movie);
             await unitOfWork.CommitChangesAsync();
             return Result.Success();
@@ -82,7 +82,6 @@ public class MovieService(IMovieRepository movieRepository, IUnitOfWork unitOfWo
         {
             movieRepository.DeleteMovie(movie);
             await unitOfWork.CommitChangesAsync();
-
             return Result.Success();
         }
         catch
